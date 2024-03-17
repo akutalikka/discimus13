@@ -1,0 +1,191 @@
+
+
+/**
+ * @media (min-width: 781px) {
+    html {
+    }
+
+}
+
+
+
+
+@media (max-width: 780px) {
+    html {
+        font-size: 35px;
+    }
+}
+
+
+
+
+ 
+@media (min-width: 760px) {
+    html {
+        font-size: 29px;
+    }
+}
+
+@media (min-width: 724px) {
+    html {
+        font-size: 29px;
+    }
+}
+
+
+
+@media (max-width: 623px) {
+    html {
+        font-size: 26px;
+    }
+}
+*/
+
+
+
+body {
+	background-color: #FBEDD7;
+	color: black;	
+
+background-repeat: repeat-y;
+background-position: 0% 0%;
+background-attachment: scroll;
+  font-family: Verdana, Courier, "Trebuchet MS", sans-serif;
+font-style: normal;
+margin-left: 2%;
+margin-right: 2%;
+margin-top: 0%;
+margin-bottom: 0%;
+line-height: 130%;
+
+
+
+}
+
+.align-left { float:left; margin: 0 15px 15px 0; }
+
+
+a:link {		/* vierailematon linkki */
+	color: blue;
+	
+}
+
+a:visited {		/* vierailtu linkki 	*/
+	color: purple;
+	
+}
+
+
+h1 {
+
+text-align: center;
+margin-left: 1em;
+margin-right: 1em;
+margin-top: 1em;
+margin-bottom: 1em;
+line-height:1.2em;
+
+}
+h2 {
+text-align: center;
+margin-left: 1em;
+margin-right: 1em;
+margin-top: 1em;
+margin-bottom: 1em;
+
+}
+h3 {
+text-align: center;
+margin-left: 1em;
+margin-right: 1em;
+margin-top: 1em;
+margin-bottom: 1em;
+
+}
+p {
+  
+margin-right: 1em;
+margin-top: 1em;
+margin-bottom: 1em;
+}
+
+.navbar {
+background:#ffff66;
+color:#333366;
+float: right;
+font-weight: bolder;
+display: inline;
+margin-top: 1em;
+margin-bottom: 2em;
+border-style: solid;
+border-width: thin;
+border-color: #000000;
+
+}
+.navbar ul li {
+padding-left: 0em;
+padding-right: 0.5em;
+list-style-type: square;
+margin-bottom: 1em;
+}
+.navbartop {
+
+
+margin-bottom: 3em;
+margin-left: 0.5em;
+}
+
+.navbartop ul li {
+background:#FFFF66;
+	 color:#333366;
+	 display: inline;
+	border-left: 1px solid black; /* lis‰t‰‰n linkkien v‰liin pieni pystysuora palkki */
+border-right: 1px solid black;
+border-bottom: 1px solid black;
+border-top: 1px solid black;
+	margin-left: 0em;
+	margin-top: 0em;
+
+font-weight: bolder;
+}
+
+.navbartop a:link, .navbar a:link {
+	text-decoration: none; /* poistaa alleviivauksen */
+ color:#0033cc;
+}
+.navbartop a:visited, .navbar a:visited {
+ color:#cc0066;
+ text-decoration: none;
+}
+.navbartop a:hover, .navbar a:hover {
+ background:#ccccff;
+  color:#ffffff;
+	text-decoration: none;
+}
+
+.vasen {
+
+float: left;
+margin-top: 0em;
+margin-left: 0em;
+margin-right: 0em;
+margin-bottom: 2em;
+}
+
+.keski {
+
+margin-top: 3em;
+margin-left: 13em;
+margin-right: 3em;
+margin-bottom: 2em;
+}
+
+table, th, td
+{
+border: 1px solid black;
+}
+
+td
+{
+padding:15px;
+}
